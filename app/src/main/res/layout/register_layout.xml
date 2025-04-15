@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"
+        android:text="To Join With Airline System \n Please Fill The Form Below"
+        android:textColor="@color/primary_color"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/card_bg"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <EditText
+            android:id="@+id/first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/edit_txt_bg"
+            android:hint="First Name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColorHint="@color/secondary_color" />
+
+        <EditText
+            android:id="@+id/last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/edit_txt_bg"
+            android:hint="Last Name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColorHint="@color/secondary_color" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/edit_txt_bg"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColorHint="@color/secondary_color" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/edit_txt_bg"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColorHint="@color/secondary_color" />
+
+        <EditText
+            android:id="@+id/re_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/edit_txt_bg"
+            android:hint="Re-Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColorHint="@color/secondary_color" />
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/edit_txt_bg"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColorHint="@color/secondary_color" />
+
+        <Spinner
+            android:id="@+id/role_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_txt_bg"
+            android:padding="10dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/image"/>
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/secondary_color"
+            android:padding="12dp"
+            android:text="Register"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/login_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="If you already have an account, click here"
+            android:textColor="@color/primary_color"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+</LinearLayout>

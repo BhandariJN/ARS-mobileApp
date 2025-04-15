@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- Default State (White Background, Gray Border) -->
+    <item>
+        <shape>
+            <solid android:color="@color/black"/> <!-- White Background -->
+            <stroke android:width="2dp" android:color="#B0BEC5"/> <!-- Gray Border -->
+            <corners android:radius="20dp"/>
+            <padding android:left="10dp" android:right="10dp"/>
+            <size android:minHeight="48dp"/>
+        </shape>
+    </item>
+
+</selector>
